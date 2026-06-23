@@ -1,0 +1,51 @@
+body {
+    background-color: #EEFBDA;
+}
+
+.pos {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    color: #0c2745;
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo2 {
+    color: #A34D3E;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    width: 650px;
+    height: 180px;
+    background-color: #D18075;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    /* adiciona espaço nas bordas */
+    box-sizing: border-box;
+    /* garante que o padding não expanda a caixa */
+
+}
+
+.sim {
+    color: #FFF1D2;
+    max-width: 500px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}

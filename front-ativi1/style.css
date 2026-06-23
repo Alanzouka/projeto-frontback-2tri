@@ -105,3 +105,39 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+.butao {
+    background-color: #90bdb1;
+    width: 200px;
+    height: 50px;
+    color: #394f49;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.butao2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.link {
+    color: transparent;
+}
+
+.butao:hover {
+  background-color: #b3f1e1;
+  /* Move o botão 5 pixels para cima */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Efeito ao clicar */
+.butao:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
