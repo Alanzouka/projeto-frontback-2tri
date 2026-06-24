@@ -15,15 +15,18 @@ body {
     font-size: 45px;
 }
 
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+
 
 }
 
 .quadrado {
-    width: 650px;
+    width: 600px;
     height: 340px;
     background-color: #0C2745;
     border-radius: 10px;
@@ -31,21 +34,17 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px 40px;
-    /* adiciona espaço nas bordas */
     box-sizing: border-box;
-    /* garante que o padding não expanda a caixa */
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     padding: 20px 40px;
-    /* adiciona espaço nas bordas */
     box-sizing: border-box;
-    /* garante que o padding não expanda a caixa */
 }
 
 .quadrado:hover {
     background-color: #d18075;
     /* Move o botão 5 pixels para cima */
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -68,4 +67,54 @@ body {
     justify-content: center;
     width: 250px;
     height: 250px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 20px 40px;
+    /* adiciona espaço nas bordas */
+    margin-top: 90px;
+}
+
+.img:hover {
+    transform: translateY(-10px);
+
+}
+
+.butao {
+    background-color: #d18075;
+    width: 200px;
+    height: 50px;
+    color: #fce4e0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.butao2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.link {
+    color: transparent;
+}
+
+.butao:hover {
+    background-color: #5f8bbe;
+
+    color: #ecc6c0;
+    /* Move o botão 5 pixels para cima */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito ao clicar */
+.butao:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }

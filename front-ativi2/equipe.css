@@ -1,0 +1,349 @@
+body {
+    background-color: #EEFBDA;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "YEAR" 2005;
+    color: #A34D3E;
+}
+
+.container {
+   display: flex;
+    flex-direction: column; /* empilha em coluna */
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 40px 0;
+
+
+}
+
+.quadrado {
+    width: 1000px;
+    height: 340px;
+    background-color: #f3e671;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    /* imagem vai pra esquerda */
+    align-items: center;
+    /* centraliza verticalmente */
+    gap: 30px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.quadrado:hover {
+    background-color: #9dee9a;
+    /* Move o botão 5 pixels para cima */
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+    display: flex;
+    justify-content: flex-start;
+    /* gruda na esquerda */
+    width: 350px;
+    height: 350px;
+    gap: -20px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: flex-start;
+    /* gruda na esquerda */
+    width: 330px;
+    height: 330px;
+    gap: -20px;
+}
+
+.img3 {
+    display: flex;
+    justify-content: flex-start;
+    /* gruda na esquerda */
+    width: 330px;
+    height: 330px;
+    gap: -20px;
+}
+
+.img4 {
+    display: flex;
+    justify-content: flex-start;
+    /* gruda na esquerda */
+    width: 330px;
+    height: 330px;
+    gap: -20px;
+}
+
+.img5 {
+    display: flex;
+    justify-content: flex-start;
+    /* gruda na esquerda */
+    width: 330px;
+    height: 330px;
+    gap: -20px;
+}
+.texto {
+    font-size: 35px;
+    font-family: "Mouse Memoirs", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #704944;
+    max-width: 500px;
+    
+}
+
+.texto2 {
+    font-size: 35px;
+    font-family: "Mouse Memoirs", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #1b4422;
+    max-width: 500px;
+    
+}
+
+.texto3 {
+    font-size: 35px;
+    font-family: "Mouse Memoirs", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #2f3147;
+    max-width: 500px;
+    
+}
+
+.texto4 {
+    font-size: 35px;
+    font-family: "Mouse Memoirs", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #fac1b8;
+    max-width: 500px;
+    
+}
+
+.texto5 {
+    font-size: 35px;
+    font-family: "Mouse Memoirs", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ecaea6;
+    max-width: 500px;
+}
+.sim {
+    color: #976d68;
+    max-width: 500px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.sim2 {
+    color: rgb(73, 68, 131);
+    max-width: 500px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+.sim3 {
+    color: #e0a29b;
+    max-width: 500px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+.sim4 {
+    color: #e0a29b;
+    max-width: 500px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+.sima {
+    color: #3a6638;
+    max-width: 500px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* espaço entre cada quadrado */
+    padding: 40px 0; /* respiro no topo e embaixo */;
+}
+
+.aa {
+    margin-top: -40px;
+}
+
+.aaa{
+    margin-top: -50px;
+}
+
+.quadrado2 {
+    width: 1000px;
+    height: 340px;
+    background-color: #719af3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    /* imagem vai pra esquerda */
+    align-items: center;
+    /* centraliza verticalmente */
+    gap: 30px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.quadrado2:hover {
+    background-color: #ae6bbb;
+    /* Move o botão 5 pixels para cima */
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.quadrado3 {
+    width: 1000px;
+    height: 340px;
+    background-color: #ff8ec7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    /* imagem vai pra esquerda */
+    align-items: center;
+    /* centraliza verticalmente */
+    gap: 30px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.quadrado3:hover {
+    background-color: #c0d854;
+    /* Move o botão 5 pixels para cima */
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.quadrado4 {
+    width: 1000px;
+    height: 340px;
+    background-color: #a33131;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    /* imagem vai pra esquerda */
+    align-items: center;
+    /* centraliza verticalmente */
+    gap: 30px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.quadrado4:hover {
+    background-color: #332024;
+    /* Move o botão 5 pixels para cima */
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.quadrado5 {
+    width: 1000px;
+    height: 340px;
+    background-color: #741d6c;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    /* imagem vai pra esquerda */
+    align-items: center;
+    /* centraliza verticalmente */
+    gap: 30px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.quadrado5:hover {
+    background-color: #416d69;
+    /* Move o botão 5 pixels para cima */
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.butao {
+    background-color: #d18075;
+    width: 200px;
+    height: 50px;
+    color: #fce4e0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.butao2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.link {
+    color: transparent;
+}
+
+.butao:hover {
+    background-color: #5f8bbe;
+
+    color: #ecc6c0;
+    /* Move o botão 5 pixels para cima */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito ao clicar */
+.butao:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.asim {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    gap: 30px;
+}
