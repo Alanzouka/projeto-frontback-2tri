@@ -1,0 +1,1 @@
+console.log("Seja bem vindo ao aplicativo Luláticos! Aqui atenderemos todas as suas dúvidas e organizaremos os eventos")
