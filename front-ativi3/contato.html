@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Reserva de Espaço da Escola</title>
+    <title>Formulário de Contato - Coordenação</title>
 </head>
 <body>
 
     <div class="titulo">
-        <h1>Reserva de Espaço da Escola</h1>
+        <h1>Contato - Coordenação</h1>
     </div>
+
+    <div class="talvez">
+
+         <a href="reserva.html" class="link">
+        <button class="cadastrar-tarefa-button">
+            Reservar
+
+        </button>
+
+    </div>
+
+   
+    </a>
 
     <div class="form">
         <form action="#" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
 
-            <label for="turma">Turma:</label>
-            <input type="text" id="turma" name="turma" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
 
-            <label for="horario">Horário:</label>
-            <input type="time" id="horario" name="horario" required>
-
-            <button type="submit" class="button2">Reservar</button>
+            <button type="submit" class="button2">Enviar</button>
         </form>
     </div>
 
@@ -48,7 +58,8 @@
             color: #6131b9;
         }
 
-        input {
+        input,
+        textarea {
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
@@ -64,6 +75,27 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+        }
+
+        .cadastrar-tarefa-button {
+            display: flex;
+            justify-content: center;
+            width: 200px;
+            padding: 10px;
+            background-color: #6131b9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .link {
+            text-decoration: none;
+        }
+        .talvez {
+            display: flex;
+            justify-content: center;
         }
     </style>
 
