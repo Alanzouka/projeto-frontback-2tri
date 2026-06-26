@@ -3,15 +3,15 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Bem-vindo ao projeto de boas-vindas!');
+  res.send('Bem-vindo ao projeto Luláticos! ');
 });
 
 app.get('/sobre', (req, res) => {
-  res.send('Este projeto demonstra rotas simples em uma aplicação Node.js com Express.');
+  res.send('Nosso app se trata de uma agenda virtual prática para responsáveis, avisando sempre todos os eventos escolares!.');
 });
 
 app.get('/equipe', (req, res) => {
-  res.send('Nossa equipe está comprometida em criar soluções web claras e funcionais.');
+  res.send('É composta por 4 integrantes: Allanzito, Bianquinha, Gigi, Maykin e Miguelito!');
 });
 
 app.get('/contato', (req, res) => {
