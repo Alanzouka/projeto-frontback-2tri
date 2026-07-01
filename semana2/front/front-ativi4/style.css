@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(247, 227, 142);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    -webkit-text-stroke: 0.5px rgb(96, 90, 184);
+    /* Espessura e cor do contorno */
+}
+
+.cor {
+    color: rgb(121, 162, 240);
+}
+
+.butao {
+    background-color: #747cec;
+    width: 200px;
+    height: 50px;
+    color: #fce4e0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+
+.butao2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.link {
+    color: transparent;
+}
+
+.butao:hover {
+    background-color: #9cc4f3;
+
+    color: #40475c;
+    /* Move o botão 5 pixels para cima */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito ao clicar */
+.butao:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.aa {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.quadrado {
+    width: 500px;
+    height: 300px;
+    background-color: #dd71f3;
+    border-radius: 10px;
+    gap: 30px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #49164d;
+    /* Adiciona uma borda preta */
+}
+
+.quadrado:hover {
+    background-color: #7da2f0;
+    /* Move o botão 5 pixels para cima */
+    transform: translateY(-10px);
+    border: 2px solid #25476e;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem {
+    width: 300px;
+    height: 300px;
+  
+
+}
